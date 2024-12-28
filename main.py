@@ -1,7 +1,7 @@
 import encoder 
 
 def main():
-    encoder.encode("TheaterIntro","TheaterIntro.mp4",.2,.8,10)
+    encoder.encode("sonic3scene","sonic3scene.mp4",.15,1,10)
 
 
 if __name__== "__main__":

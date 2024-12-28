@@ -97,7 +97,7 @@ def encode(filmName,videoName,resolutionMulti,fpsMulti,packetSize):
                     colorData = frame[rowI][colI]
                     colorData = list(colorData)
           
-                    for i,colorValue in enumerate(colorData): colorData[i] = np.int(colorValue)# allows json to sterilise
+                    for i,colorValue in enumerate(colorData): colorData[i] = int(colorValue)# allows json to sterilise
 
                     rowTable.append([colorData[2],colorData[1],colorData[0]] ) 
 
