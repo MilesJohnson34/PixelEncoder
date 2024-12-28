@@ -1,2 +1,6 @@
 Videos
 __pycache__
+.cache
+.upm
+venv
+.replit
